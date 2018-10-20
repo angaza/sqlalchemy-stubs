@@ -8,7 +8,7 @@ from ...orm import comparable_property as comparable_property, interfaces as int
 from ...orm import synonym as _orm_synonym
 from ...orm.util import polymorphic_union as polymorphic_union
 from ...util import OrderedDict as OrderedDict, hybridmethod as hybridmethod, hybridproperty as hybridproperty
-from .base import _declarative_constructor
+from .base import _declarative_constructor as _declarative_constructor
 from .clsregistry import _class_resolver as _class_resolver
 
 def instrument_declarative(cls, registry, metadata): ...
