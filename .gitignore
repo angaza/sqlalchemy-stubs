@@ -1,6 +1,19 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*~
+@*
+/build
+/env
+docs/build/
+*.iml
+/out/
+.venv/
+.mypy_cache/
+.incremental_checker_cache.json
+.cache
+dmypy.json
+.dmypy.json
 
 # C extensions
 *.so
