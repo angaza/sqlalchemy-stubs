@@ -28,7 +28,7 @@ class SchemaItem(SchemaEventTarget, visitors.Visitable):
     def info(self) -> Optional[Mapping[str, Any]]: ...
 
 # Definition of "get_children" in base class "SchemaItem" is incompatible with definition in base class "TableClause"
-class Table(DialectKWArgs, SchemaItem, TableClause):  # type: ignore
+class Table(DialectKWArgs, SchemaItem, TableClause):
     __visit_name__: str
     metadata: MetaData
     schema: Optional[str]
