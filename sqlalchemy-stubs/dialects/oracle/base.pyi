@@ -27,7 +27,7 @@ class VARCHAR2(VARCHAR):
 
 NVARCHAR2 = ...  # type: Any
 
-class NUMBER(sqltypes.Numeric, sqltypes.Integer):
+class NUMBER(sqltypes.Numeric):
     __visit_name__ = ...  # type: str
     def __init__(self, precision: Optional[Any] = ..., scale: Optional[Any] = ..., asdecimal: Optional[Any] = ...) -> None: ...
     def adapt(self, impltype): ...
