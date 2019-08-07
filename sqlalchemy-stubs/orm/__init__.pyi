@@ -43,7 +43,8 @@ from .strategy_options import Load as Load
 
 def create_session(bind: Optional[Any] = ..., **kwargs): ...
 
-relationship = RelationshipProperty
+# relationship = RelationshipProperty
+relationship = ... # type: Any
 
 def relation(*arg, **kw): ...
 def dynamic_loader(argument, **kw): ...

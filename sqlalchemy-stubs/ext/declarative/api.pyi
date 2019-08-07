@@ -1,6 +1,6 @@
 from typing import Any, Optional
 from ...orm import interfaces
-from .base import _declarative_constructor
+from .base import _declarative_constructor as _declarative_constructor
 
 def instrument_declarative(cls, registry, metadata): ...
 def has_inherited_table(cls): ...
